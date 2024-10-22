@@ -1,0 +1,149 @@
+/* Start Main Header Styles */
+
+.main-header {
+
+    position: relative;
+
+    padding: 4.2rem 1.6rem;
+
+    background-color: #0075be;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+.main-header .logo {
+
+    display: flex;
+
+}
+
+.main-header .logo img {
+
+    width: 120px;
+
+}
+
+.toggle-navbar-menu {
+
+    order: 2;
+
+    background-color: transparent;
+
+    border: none;
+
+    cursor: pointer;
+
+}
+
+.toggle-navbar-menu i {
+
+    font-size: 3.2rem;
+
+    color: #fff;
+
+}
+
+.main-header .navbar {
+
+    position: absolute;
+
+    top: 100%;
+
+    right: 0;
+
+    width: 100%;
+
+    padding: 1.6rem;
+
+    background-color: #035486;
+
+    clip-path: polygon(100% 0, 0 0, 0 0, 100% 0);
+
+    visibility: hidden;
+
+    transition: all 0.4s;
+
+}
+
+.main-header .navbar.show {
+
+    clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
+
+    visibility: visible;
+
+}
+
+.main-header .nav-links {
+
+    display: flex;
+    
+    flex-direction: column;
+
+    gap: 1.6rem;
+
+}
+
+.main-header .nav-link {
+
+    display: block;
+
+    padding: 1.6rem;
+
+    background-color: #f5f7f9;
+
+    font-size: 1.4rem;
+
+    color: #333;
+
+}
+
+.main-header .bag-shopping {
+
+    position: relative;
+
+    order: 1;
+
+    cursor: pointer;
+
+}
+
+.main-header .bag-shopping i {
+
+    font-size: 3.2rem;
+
+    color: #fff;
+
+}
+
+.main-header .products-count {
+
+    position: absolute;
+
+    top: -6px;
+
+    right: -8px;
+
+    width: 1.6rem;
+
+    height: 1.6rem;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    border-radius: 50%;
+
+    background-color: #fff;
+
+    font-size: 1.4rem;
+
+}
+
+/* End Main Header Styles */
