@@ -10,6 +10,32 @@
 
     /* End Main Header Styles */
 
+    /* Start Main Hero Styles */
+
+    .main-hero {
+
+        padding: 2.4rem 3.2rem;
+
+    }
+
+    .primary-heading {
+
+        font-size: 5.2rem;
+
+    }
+
+    /* End Main Hero Styles */
+
+    /* Start Partners Styles */
+
+        .partners {
+
+            padding: 2.4rem 3.2rem;
+
+        }
+
+    /* End Partners Styles */
+
 }
 
 @media screen and (min-width: 900px) {
@@ -23,6 +49,32 @@
     }
 
     /* End Main Header Styles */
+
+    /* Start Main Hero Styles */
+
+    .main-hero {
+
+        padding: 2.4rem 4.8rem;
+
+    }
+
+    .primary-heading {
+
+        font-size: 6.2rem;
+
+    }
+
+    /* End Main Hero Styles */
+
+    /* Start Partners Styles */
+
+    .partners {
+
+        padding: 2.4rem 4.8rem;
+
+    }
+
+    /* End Partners Styles */
 
 }
 
@@ -77,5 +129,47 @@
     }
 
     /* End Main Header Styles */
+
+    /* Start Main Hero Styles */
+
+    .main-hero {
+
+        padding: 2.4rem 6.4rem;
+
+    }
+
+    /* End Main Hero Styles */
+
+    /* Start Partners Styles */
+
+    .partners {
+
+        padding: 2.4rem 6.4rem;
+
+    }
+
+    /* End Partners Styles */
+    
+}
+
+@media screen and (hover: hover) {
+
+    .btn-fill:hover {
+
+        background-color: #333;
+
+        border-color: #333;
+
+        color: #fff;
+
+    }
+
+    .btn-outline:hover {
+
+        background-color: #fff;
+
+        color: #333;
+
+    }
     
 }
